@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 110x250dp defines minimal area of 2x4 tiles -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/my_widget"
+    android:initialLayout="@layout/my_widget"
+    android:minHeight="110dp"
+    android:minWidth="250dp"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="18000000"
+    android:widgetCategory="home_screen"></appwidget-provider>
