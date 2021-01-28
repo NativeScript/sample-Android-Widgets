@@ -1,7 +1,7 @@
-var createViewModel = require("./main-view-model").createViewModel;
+const createViewModel = require("./main-view-model").createViewModel;
 
 function onNavigatingTo(args) {
-    var page = args.object;
+    const page = args.object;
     page.bindingContext = createViewModel();
 }
 exports.onNavigatingTo = onNavigatingTo;
