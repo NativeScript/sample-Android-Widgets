@@ -1,3 +1,4 @@
+# Nativescript 7
 # Steps to create an [Android App Widget](http://developer.android.com/guide/topics/appwidgets/index.html#MetaData) in NativeScript
 
 * Create an android layout for your widget and place it in `platforms/android/src/main/res/layout`. Make sure to follow the [official guidelines](http://developer.android.com/guide/practices/ui_guidelines/widget_design.html) as not all views are supported.
